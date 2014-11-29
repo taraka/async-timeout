@@ -1,13 +1,19 @@
 {
-  "name": "asynctimeout",
-  "version": "1.0.0",
-  "description": "",
+  "name": "async-timeout",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taraka/async-timeout"
+  },
+  "description": "Add timeouts to async functions in nodejs",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Tom Rawcliffe"
+  },
+  "license": "MIT",
   "devDependencies": {
     "lodash": "^2.4.1",
     "mocha": "^2.0.1",
